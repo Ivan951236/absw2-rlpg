@@ -33,15 +33,6 @@ Follow the on-screen prompts:
 4. View your generated character preset
 5. Press Enter or Esc to generate a new preset
 
-## Controls
-
-- `1` or `2`: Select Bird Side or Pork Side
-- Number keys: Enter world/level numbers
-- `Enter`: Confirm input
-- `Backspace`: Delete last character from input
-- `Esc`: Go back to previous screen or exit
-- `Enter` or `Esc`: Generate a new preset when viewing results
-
 ## Character Lists
 
 ### Bird Side Characters:
