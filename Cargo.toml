@@ -1,0 +1,9 @@
+[package]
+name = "angry-birds-star-wars-2-roguelike-preset-generator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossterm = "0.28"
+ratatui = "0.26"
+rand = "0.8"
