@@ -24,7 +24,7 @@ jobs:
       uses: actions/upload-artifact@v6.0.0
       with:
         name: Linux build of absw2-rlpg
-        path: ./target/release/
+        path: target/release/
         if-no-files-found: error
         compression-level: 9
         include-hidden-files: true
