@@ -1,0 +1,40 @@
+name: Rust on Windows
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build
+      run: cargo build --verbose
+    - name: Build a release version of the build
+      run: cargo build --release
+    - name: Run tests
+      run: cargo test --verbose
+    - name: Upload the built debug files
+      uses: actions/upload-artifact@v6.0.0
+      with:
+        name: A Debug Windows build of absw2-rlpg
+        path: target/debug/
+        if-no-files-found: error
+        compression-level: 9
+        include-hidden-files: true
+    - name: Upload the built release files
+      uses: actions/upload-artifact@v6.0.0
+      with:
+        name: Windows build of absw2-rlpg
+        path: target/release/
+        if-no-files-found: error
+        compression-level: 9
+        include-hidden-files: true
