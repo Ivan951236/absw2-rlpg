@@ -33,68 +33,6 @@ Follow the on-screen prompts:
 4. View your generated character preset
 5. Press Enter or Esc to generate a new preset
 
-## Character Lists
-
-### Bird Side Characters:
-- Ezra Bridger
-- Sabine Wren
-- Chopper
-- Hera Syndulla
-- Kana Jarrus
-- Garazeb "Zeb" Orrelios
-- Qui-Gon Jinn
-- Obi-Wan Kenobi
-- Yoda
-- Jar Jar Binks
-- Anakin E1
-- Captain Panakin
-- Padmé
-- Anakin E2
-- Jedi Younglings
-- Made Windu
-- Chewbacca
-- R2-D2
-- C-3PO
-- Silver C-3PO
-- Han Solo
-- Leia
-- Pilot Luke
-- Endor Luke
-- Jedi Luke
-- Lando
-- Wicket
-- Kit Fisto
-- Carbonite Han Solo
-
-### Pork Side Characters:
-- The Inquisitor
-- Agent Kallus
-- AT-DP Pilot
-- Cikatro Vizago
-- Vizago Droid
-- Imperial Officer
-- Jango Fett
-- Darth Sidious
-- Battle Droid
-- Darth Maul
-- Count Dooku
-- Droideka
-- Zam Wesell
-- General Grievous
-- Anakin E3
-- Biker Scout
-- Stormtrooper
-- TIE Fighter Pilot
-- Darth Vader
-- Boba Fett
-- Hologram Darth Sidious
-- Shadowtrooper
-- Red Battle Droid
-- Shocktrooper
-- Jabba
-- Royal Guard
-- Tusken Raider
-
 ## Build
 
 To build the application without running it:
